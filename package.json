@@ -1,6 +1,6 @@
 {
   "name": "@martylouis/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint and Prettier config",
   "main": ".eslintrc",
   "repository": {
