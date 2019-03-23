@@ -60,4 +60,4 @@ If you have the prettier extension enabled for other languages like CSS and HTML
 ```
 
 ------
-Credit to [Wes Bos]([https://](https://github.com/wesbos/eslint-config-wesbos)) and [10up](https://github.com/10up/eslint-config) for their eslint configs.
+Credit to [Wes Bos](https://github.com/wesbos/eslint-config-wesbos) and [10up](https://github.com/10up/eslint-config) for their eslint configs.
