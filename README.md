@@ -7,7 +7,7 @@
 To use this config, install this package and it’s peer dependencies to your project. **Note we’re using** `npx`
 
 ```sh
-npx install-peerdeps -dev @martylouis/eslint-config
+npx install-peerdeps --dev @martylouis/eslint-config
 ```
 
 Or, if you’re using [Yarn](https://yarn.io) for package management:
