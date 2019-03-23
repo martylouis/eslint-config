@@ -4,10 +4,27 @@
 
 ## Installation
 
-To use this config, install this package as a development dependency of your project.
+To use this config, install this package and it’s peer dependencies to your project. **Note we’re using** `npx`
 
 ```sh
-npm i -D @martylouis/eslint-config
+npx install-peerdeps -D @martylouis/eslint-config
+```
+
+Or, if you’re using [Yarn](https://yarn.io) for package management:
+
+```sh
+yarn add -D @martylouis/eslint-config \
+babel-eslint \
+eslint \
+eslint-config-prettier \
+eslint-config-standard \
+eslint-plugin-html \
+eslint-plugin-import \
+eslint-plugin-node \
+eslint-plugin-prettier \
+eslint-plugin-promise \
+eslint-plugin-standard \
+prettier
 ```
 
 Next add this to your `.eslintrc`
@@ -18,9 +35,9 @@ Next add this to your `.eslintrc`
 }
 ```
 
-## ESLint With VS Code and Prettier
+## ESLint With VS Code
 
-Edit your VS Code `settings.json`:
+We want eslint to format our JS on save, edit your VS Code `settings.json`
 
 ```json
 {
@@ -29,7 +46,15 @@ Edit your VS Code `settings.json`:
     "editorformatOnSave": false
   },
   "eslint.autoFixOnSave": true,
-  // If you have prettier extenstion installed on VS Code
+}
+```
+
+### With the Prettier extension
+
+If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+
+```json
+{
   "prettier.disableLanguages": ["javascript"]
 }
 ```
