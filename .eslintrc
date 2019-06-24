@@ -5,16 +5,13 @@
     "node": true,
     "jquery": true
   },
-  "extends": [
-    "prettier",
-    "standard"
-  ],
+  "extends": ["prettier", "standard"],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["html", "prettier"],
+  "plugins": ["prettier"],
   "rules": {
     "camelcase": 2,
     "comma-dangle": 0,
