@@ -2,8 +2,8 @@
 	"env": {
 		"browser": true,
 		"es6": true,
-		"node": true,
-		"jquery": true
+		"jquery": true,
+		"node": true
 	},
 	"extends": ["prettier", "standard"],
 	"parser": "babel-eslint",
@@ -25,36 +25,36 @@
 		"linebreak-style": [2, "unix"],
 		"no-alert": 1,
 		"no-await-in-loop": 0,
-		"no-debugger": 0,
 		"no-console": 1,
-		"no-unused-vars": [
-			1,
-			{
-				"ignoreSiblings": true,
-				"argsIgnorePattern": "res|next|^err"
-			}
-		],
+		"no-debugger": 0,
 		"no-param-reassign": [
 			2,
 			{
 				"props": false
 			}
 		],
-		"prefer-destructuring": 1,
-		"prefer-template": 2,
-		"quotes": [
-			2,
-			"single",
+		"no-unused-vars": [
+			1,
 			{
-				"avoidEscape": true,
-				"allowTemplateLiterals": true
+				"argsIgnorePattern": "res|next|^err",
+				"ignoreSiblings": true
 			}
 		],
+		"prefer-destructuring": 1,
+		"prefer-template": 2,
 		"prettier/prettier": [
 			"error",
 			{
 				"singleQuote": true,
 				"trailingComma": "es5"
+			}
+		],
+		"quotes": [
+			2,
+			"single",
+			{
+				"allowTemplateLiterals": true,
+				"avoidEscape": true
 			}
 		],
 		"semi": 0,
