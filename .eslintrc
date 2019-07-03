@@ -40,7 +40,6 @@
 				"props": false
 			}
 		],
-		"no-var": 1,
 		"prefer-destructuring": 1,
 		"prefer-template": 2,
 		"quotes": [
