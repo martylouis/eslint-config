@@ -4,13 +4,15 @@
 
 ## Installation
 
-To use this config, install this package and it’s peer dependencies to your project. **Note we’re using** `npx`
+To use this config, install this package and it’s peer dependencies to your project. 
+
+#### Install with [`npx`](https://github.com/zkat/npx#readme):
 
 ```sh
 npx install-peerdeps --dev @martylouis/eslint-config
 ```
 
-Or, if you’re using [Yarn](https://yarn.io) for package management:
+#### Install with [`yarn`](https://yarnpkg.com/)
 
 ```sh
 yarn add -D @martylouis/eslint-config \
@@ -27,7 +29,25 @@ eslint-plugin-standard \
 prettier
 ```
 
-Next add this to your `.eslintrc`
+#### Install with [`install-peerdeps`](https://github.com/nathanhleung/install-peerdeps#readme):
+
+```sh
+install-peerdeps @martylouis/estling-config -d
+```
+Add the `-Y` flag to automatically install with [Yarn](https://yarnpkg.com/).
+
+## Extend this config
+
+Add to your `package.json`:
+```json
+{
+  "eslintConfig": {
+    "extends": "@martylouis/eslint-config"
+  },
+}
+```
+
+OR add to your add `.eslintrc`
 
 ```json
 {
