@@ -1,52 +1,52 @@
 {
-  "name": "@martylouis/eslint-config",
-  "version": "1.2.1",
-  "description": "ESLint and Prettier config",
-  "main": ".eslintrc",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/martylouis/eslint-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/martylouis/eslint-config/issues"
-  },
-  "scripts": {
-    "lint": "eslint ."
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "prettier",
-    "martylouis"
-  ],
-  "author": "Marty Thierry <marty@martylouis.com> (https://martylouis.com/)",
-  "license": "GPL-2.0+",
-  "homepage": "https://github.com/martylouis/eslint-config#readme",
-  "devDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.18.2"
-  },
-  "peerDependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.18.2"
-  },
-  "eslintConfig": {
-    "extends": "./.eslintrc"
-  }
+	"name": "@martylouis/eslint-config",
+	"version": "1.2.1",
+	"description": "ESLint and Prettier config",
+	"main": ".eslintrc",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/martylouis/eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/martylouis/eslint-config/issues"
+	},
+	"scripts": {
+		"lint": "eslint ."
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"prettier",
+		"martylouis"
+	],
+	"author": "Marty Thierry <marty@martylouis.com> (https://martylouis.com/)",
+	"license": "GPL-2.0+",
+	"homepage": "https://github.com/martylouis/eslint-config#readme",
+	"devDependencies": {
+		"babel-eslint": "^10.0.2",
+		"eslint": "^6.0.1",
+		"eslint-config-prettier": "^6.0.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.18.0",
+		"eslint-plugin-node": "^9.1.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"prettier": "^1.18.2"
+	},
+	"peerDependencies": {
+		"babel-eslint": "^10.0.2",
+		"eslint": "^6.0.1",
+		"eslint-config-prettier": "^6.0.0",
+		"eslint-config-standard": "^12.0.0",
+		"eslint-plugin-import": "^2.18.0",
+		"eslint-plugin-node": "^9.1.0",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.0",
+		"prettier": "^1.18.2"
+	},
+	"eslintConfig": {
+		"extends": "./.eslintrc"
+	}
 }
