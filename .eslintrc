@@ -5,7 +5,7 @@
 		"jquery": true,
 		"node": true
 	},
-	"extends": ["prettier", "standard"],
+	"extends": ["standard", "prettier"],
 	"parser": "babel-eslint",
 	"parserOptions": {
 		"ecmaVersion": 2018,
@@ -17,7 +17,7 @@
 		"comma-dangle": 0,
 		"indent": [
 			"error",
-			2,
+			"tab",
 			{
 				"SwitchCase": 2
 			}
@@ -27,12 +27,14 @@
 		"no-await-in-loop": 0,
 		"no-console": 1,
 		"no-debugger": 0,
+		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
 		"no-param-reassign": [
 			2,
 			{
 				"props": false
 			}
 		],
+		"no-tabs": 0,
 		"no-unused-vars": [
 			1,
 			{
@@ -46,7 +48,8 @@
 			"error",
 			{
 				"singleQuote": true,
-				"trailingComma": "es5"
+				"trailingComma": "es5",
+				"useTabs": true
 			}
 		],
 		"quotes": [
@@ -58,7 +61,6 @@
 			}
 		],
 		"semi": 0,
-		"space-before-function-paren": 0,
 		"strict": [2, "global"]
 	}
 }
